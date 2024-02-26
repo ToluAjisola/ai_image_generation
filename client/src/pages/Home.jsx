@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 import { Card, FormField, Loader } from "../components";
+import PropTypes from "prop-types"; // Import PropTypes'
 
 
 const RenderCards = ({ data, title }) => {
@@ -14,7 +15,11 @@ return (
 );
   
 }
-
+//remove if issue occurs with rendercard
+RenderCards.propTypes = {
+  data: PropTypes.any,
+  title: PropTypes.string,
+};
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
@@ -65,5 +70,6 @@ const Home = () => {
     </section>
   );
 };
+
 
 export default Home;

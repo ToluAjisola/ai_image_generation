@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from "prop-types"; // Import PropTypes'
 
 const FormField = ({
   labelName,
@@ -43,4 +43,17 @@ const FormField = ({
   );
 };
 
-export default FormField
+// Add prop type validation
+//remove if issue occurs with formfield
+FormField.propTypes = {
+  labelName: PropTypes.string,
+  type: PropTypes.string,
+  name: PropTypes.string,
+  placeholder: PropTypes.string,
+  value: PropTypes.string,
+  handleChange: PropTypes.any,
+  isSurpriseMe: PropTypes.bool,
+  handleSurpriseMe: PropTypes.any,
+};
+
+export default FormField;
