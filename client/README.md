@@ -9,6 +9,14 @@ npx tailwindcss init -p
 React-Router
 npm install react-router-dom
 
+
+
+Server folder installations:
+cloudinary to stor images
+cors for cross origin requests
+dotenv for secrets
+npm install cloudinary cors dotenv express mongoose nodemon openai
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
