@@ -19,7 +19,7 @@ const openai = new OpenAI({
 });
 
 router.route("/").get((req, res) => {
-  res.status(200).json({ message: "Hello from DALL-E! in dalle route" });
+  res.send("Hello from DALL-E! in dalle route" );
 });
 
 
@@ -27,7 +27,7 @@ router.route("/").post(async (req, res) => {
   try {
     const { prompt } = req.body;
 
-    const aiResponse = await openai.createImage({
+    const aiResponse = await openai.images.generate({
       prompt,
       n: 1,
       size: "1024x1024",
