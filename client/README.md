@@ -16,6 +16,8 @@ cloudinary to stor images
 cors for cross origin requests
 dotenv for secrets
 npm install cloudinary cors dotenv express mongoose nodemon openai
+openai in package.json must be "openai": "^3.1.0"
+/* "openai": "^4.28.4" */
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
