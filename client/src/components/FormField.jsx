@@ -37,6 +37,7 @@ const FormField = ({
         placeholder={placeholder}
         value={value}
         onChange={handleChange}
+        autoComplete="off"
         required
       />
     </div>
