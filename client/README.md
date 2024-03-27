@@ -12,12 +12,25 @@ npm install react-router-dom
 
 
 Server folder installations:
-cloudinary to stor images
+cloudinary to store images
 cors for cross origin requests
 dotenv for secrets
 npm install cloudinary cors dotenv express mongoose nodemon openai
 openai in package.json must be "openai": "^3.1.0"
 /* "openai": "^4.28.4" */
+
+
+Utilized MongoDB Atlas, Cloudinary
+Backend deployed on Render
+-Root Directory: server
+-Start Command: npm run start
+
+Frontend deployed on Netlify
+Build settings
+-Base directory: client
+-Build command: npm run build
+-Publish directory: client/dist (dist is gotten from)
+Manually run "npm run build" locally to create the dist file in the repository
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
