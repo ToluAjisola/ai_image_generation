@@ -1,36 +1,43 @@
 # React + Vite
 
-Installions:
-
+## Installations:
+```
 Tailwind link - https://tailwindcss.com/docs/installation/using-postcss
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+```
 
-React-Router
+### React-Router
+```
 npm install react-router-dom
+```
 
 
-
-Server folder installations:
+### Server folder installations:
+```
 cloudinary to store images
-cors for cross origin requests
+cors for cross-origin requests
 dotenv for secrets
 npm install cloudinary cors dotenv express mongoose nodemon openai
 openai in package.json must be "openai": "^3.1.0"
 /* "openai": "^4.28.4" */
-
+```
 
 Utilized MongoDB Atlas, Cloudinary
-Backend deployed on Render
+### Backend deployed on Render
+```
 -Root Directory: server
 -Start Command: npm run start
+```
 
-Frontend deployed on Netlify
+### Frontend deployed on Netlify
 Build settings
+```
 -Base directory: client
 -Build command: npm run build
--Publish directory: client/dist (dist is gotten from)
-Manually run "npm run build" locally to create the dist file in the repository
+-Publish directory: client/dist
+Manually run "npm run build" locally to create the dist file in the repository.
+```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
