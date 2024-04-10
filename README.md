@@ -1,3 +1,9 @@
+# AI Image Generation Application
+
+It can be viewed through here: [Live Link](https://ai-image-generationn.netlify.app/) 
+
+About: This is an AI Image Generation MERN app that utilizes the openAI API for image generation, MongoDB Atlas for the database functionality and Cloudinary for uploading images generated so they can be shared with the community.
+
 # React + Vite
 
 ## Installations:
